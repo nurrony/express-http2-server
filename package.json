@@ -4,7 +4,8 @@
   "description": "Simple HTTP 2 server that is only for demonstaration and playing around",
   "main": "server.js",
   "scripts": {
-    "test": "echo 'No Test Right Now'"
+    "test": "echo 'No Test Right Now'",
+    "start": "babel server.js | node"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/nmrony/express-http2-server/issues"
   },
-  "homepage": "https://github.com/nmrony/express-http2-server#readme"
+  "homepage": "https://github.com/nmrony/express-http2-server#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "spdy": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
 }
