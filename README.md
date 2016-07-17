@@ -1,12 +1,12 @@
 Simple HTTP2 Server using ExpressJS
 ------------------------------------
-This is a simple HTTP 2.0 server using ExpressJS. It is a demonstration how to create HTTP 2.0 server using ExpressJS.
-This is not for production usage and made for learning and playing with HTTP 2.0 only
+This is a simple HTTP/2.0 server using ExpressJS. It is a demonstration how to create HTTP/2.0 server using ExpressJS.
+This is not for production usage and made for learning and playing with HTTP/2.0 only
 
 Generating Self Signed key
 --------------------------
-HTTPS is needed for HTTP 2.0 protocol. Though it is not a requirement for HTTP 2.0 protocol itself but most major
-browsers implement HTTP 2.0 only over TLS. To generate self signed certificate run the following commands on your
+HTTPS is needed for HTTP/2.0 protocol. Though it is not a requirement for HTTP/2.0 protocol itself but most major
+browsers implement HTTP/2.0 only over TLS. To generate self signed certificate run the following commands on your
 terminal
 
 ```sh
