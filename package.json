@@ -1,0 +1,24 @@
+{
+  "name": "express-http2-server",
+  "version": "1.0.0",
+  "description": "Simple HTTP 2 server that is only for demonstaration and playing around",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo 'No Test Right Now'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmrony/express-http2-server.git"
+  },
+  "keywords": [
+    "http2",
+    "expressjs",
+    "server"
+  ],
+  "author": "Nur Rony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmrony/express-http2-server/issues"
+  },
+  "homepage": "https://github.com/nmrony/express-http2-server#readme"
+}
